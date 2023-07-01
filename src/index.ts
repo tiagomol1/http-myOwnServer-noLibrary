@@ -1,5 +1,4 @@
 import http from 'http'
-import url from 'url'
 import { Routes } from './_router'
 import { IMiddlewareList, IRequest, IResponse } from './interfaces'
 

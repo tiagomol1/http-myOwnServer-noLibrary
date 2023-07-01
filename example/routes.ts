@@ -1,4 +1,4 @@
-import app from './my-own-simple-http-server'
+import app from '../src'
 import Users from './controllers/users'
 
 const routes = new app.Routes()

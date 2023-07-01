@@ -1,4 +1,4 @@
-import app from './my-own-simple-http-server'
+import app from '../src'
 import { routes } from './routes'
 
 const server = app.createServer()

@@ -1,4 +1,4 @@
-import { IRequest, IResponse } from '../my-own-simple-http-server'
+import { IRequest, IResponse } from '../../src'
 import { db } from '../database/db'
 
 async function createUser(request: IRequest, response: IResponse){
